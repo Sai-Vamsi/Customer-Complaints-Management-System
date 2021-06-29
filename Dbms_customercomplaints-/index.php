@@ -41,15 +41,15 @@ $con->close();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Travel Form</title>
+    <title>Welcome to Complaints Form</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <div class="container">
-        <h3>Welcome to Customer Complaints Services regarding online shopping</h3>
-        <p>Enter your details and submit this form to confirm your participation in the trip </p>
+        <h3>Welcome to Customer Complaints Services regarding online shopping.</h3>
+        <p>Enter your details and submit this form to confirm your participation. </p>
         <?php
         if($insert==true){
         echo "<p class='submitmsg'style='color: green; font-size: 24px;'>
